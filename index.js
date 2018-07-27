@@ -14,4 +14,11 @@ function iLoveTheBeatles(number){
   } while (number<15)
   return array
 }
-function johnLennonFacts()
+function johnLennonFacts(array){
+ var facts=[]
+  var i=0
+  while(i<array.length){
+    facts.push(array[i]+'!!!')
+    i++
+  }
+}
